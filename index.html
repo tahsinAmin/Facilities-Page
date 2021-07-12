@@ -5,39 +5,40 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Stripe Pricing</title>
   <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="content-center my-16 mx-16 " style="height: 1000px;">
-    <div class="w-6/12 pricing">
-      <div class="title-input w-full flex">
-        <label for="title" class="w-1/5 text-xl">Title</label>
-        <div class="w-4/5">
-          <input type="text" class="w-full bg-gray-100 border-2 rounded-sm h-9 mb-4">
-          <div class="w-full flex">
-            <input type="text" placeholder="Add Items" class="border w-5/6 mx-1">
-            <button class="w-1/6 mx-1 border-2 rounded-sm">Add</button>
+  <div class="my-16 mx-16">
+    <div class="m-auto w-6/12 pricing">
+      <div class="title-input w-full flex ">
+        <label for="title" class="w-1/6 text-xl text-right pr-4">Title</label>
+        <div class="w-5/6">
+          <input type="text" class="w-full bg-gray-100 border-2 rounded-sm h-9 mb-6">
+          <div class="w-full flex mb-2">
+            <label for="title" class="w-1/5 text-xl items-center">Add item</label>
+            <input type="text" class="border w-3/5 bg-gray-100 border-2 rounded-sm h-9 mr-3">
+            <button class="w-1/5 ml-1 border-2 rounded-md border-green-900 text-green-900 font-bold">Add</button>
           </div>
-          <div class="flex justify-end">
-            <div class="w-5/6 border-b-2 border-fuchsia-600 bg-white flex">
-              <div class="p-6 w-1/6">
-                <img src="check.svg" alt="Kiwi standing on oval border-2">
+
+          <div class="w-full flex">
+            <div class="w-full border-b-2 border-fuchsia-600 bg-white flex">
+              <div class="p-4 w-1/6">
+                <img src="check.svg" alt="Kiwi standing on oval border-2" style="fill: green">
               </div>
-              <div class="w-5/6 p-6 flex justify-between">
-                <div>Wifi and stuff</div>
+              <div class="w-5/6 p-4 flex justify-between">
+                <div class="text-gray-500">Wifi and stuff</div>
                 <div><img src="x.svg" alt="Kiwi standing on oval border-2">
                 </div>
               </div>
             </div>
           </div>
 
-          <div class="flex justify-end">
-            <div class="w-5/6 border-b-2 border-fuchsia-600 bg-white flex">
-              <div class="p-6 w-1/6">
+          <div class="w-full flex">
+            <div class="w-full border-b-2 border-fuchsia-600 bg-white flex">
+              <div class="p-4 w-1/6">
                 <img src="check.svg" alt="Kiwi standing on oval border-2">
               </div>
-              <div class="w-5/6 p-6 flex justify-between">
-                <div>Wifi and stuff</div>
+              <div class="w-5/6 p-4 flex justify-between">
+                <div class="text-gray-500">Wifi and stuff</div>
                 <div><img src="x.svg" alt="Kiwi standing on oval border-2">
                 </div>
               </div>
@@ -45,12 +46,7 @@
           </div>
         </div>
       </div>
-
-      
-
     </div>
   </div>
 </body>
 </html>
-
-<!-- Need to add the hover color in integrated -->
